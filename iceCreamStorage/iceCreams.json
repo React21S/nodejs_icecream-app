@@ -1,0 +1,42 @@
+{
+    "Vanilla":{
+        "name":"vanilla",
+        "price":2,
+        "image":"vanilla.png"
+    },
+    "Strawberry":{
+        "name":"strawberry",
+        "price":2.5,
+        "image":"strawberry.png"
+    },
+    "Raspberry":{
+        "name":"raspberry",
+        "price":3,
+        "image":"raspberry.png"
+    },
+    "Blueberry":{
+        "name":"blueberry",
+        "price":3,
+        "image":"blueberry.png"
+    },
+    "Esperoberry":{
+        "name":"esperoberry",
+        "price":3,
+        "image":"esperoberry.png"
+    },
+    "Mangoberry":{
+        "name":"mangoberry",
+        "price":3,
+        "image":"mangoberry.png"
+    },
+    "Icecream":{
+        "name":"icecream",
+        "price":4,
+        "image":"icecream.png"
+    }
+}
+
+
+
+
+
