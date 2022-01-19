@@ -152,6 +152,19 @@ option{
 }
 
 
+button{
+  background-color: var(--bg-color-1);
+  color:var(--white);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 5px var(--color-4);
+  font-size: 50px;
+  float: right;
+  padding: 10px;
+  margin: 2px auto;
+  cursor: pointer;
+}
+
 footer{
     font-size: 3rem;
     width: 100%;

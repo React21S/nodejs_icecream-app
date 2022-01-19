@@ -72,10 +72,15 @@
             <div id="icecream">
                 <p id="name">Icecream: ${data.name} </p>
                 <p id="price"> price: ${data.price} €</p>
-                </div>`;
+                <button type="submit" value="submit">+</button>
+                </div>
+                
+              `;
                 if (data.image && data.image.length>0){
-                    htmlString+=`<img src ="/images/${data.image}"/>`;
+                    htmlString+=`<img src ="/images/${data.image}"/>
+                    `;
                 }
+                
                 resultArea.innerHTML=htmlString;
         }
     } // end of updateResult
