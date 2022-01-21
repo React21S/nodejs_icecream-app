@@ -4,8 +4,9 @@
   "description": "[![nodejs_icecream-app](https://github.com/React21S/nodejs_icecream-app/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/React21S/nodejs_icecream-app/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/React21S/nodejs_icecream-app/issues"
   },
-  "homepage": "https://github.com/React21S/nodejs_icecream-app#readme"
+  "homepage": "https://github.com/React21S/nodejs_icecream-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
